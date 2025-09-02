@@ -1,0 +1,3 @@
+sampleconfiguration:
+  appName: Test-Application-1234
+  dbPassword: ${dbPassword}
