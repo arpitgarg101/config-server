@@ -1,3 +1,4 @@
 sampleconfiguration:
   appName: Test-Application-123
-  sampleKeyVaultSecret: ${first-secret}
+  sampleKeyVaultSecret: ${vault:first-secret}
+  dbPassword: ${vault:secret/data/cloud-config-server#dbPassword}
